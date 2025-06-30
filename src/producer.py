@@ -3,8 +3,7 @@ import orjson
 import random
 
 class GenerateVariants():
-    def __init__(self, db_path, file_path, seed=None):
-        self.db_path = db_path
+    def __init__(self, file_path, seed=None):
         if seed is not None:
             random.seed(seed)
 
@@ -12,8 +11,8 @@ class GenerateVariants():
             data = orjson.loads(f.read())
         self.attribute_options = self.get_attribute_options(data)
 
-    def start(self):
-       conn = sqlite3.connect(self.db_path)
+    def generate(self, db_path='variants.db'):
+       conn = sqlite3.connect(db_path)
        self.generate_and_enqueue(conn)
        conn.close()
 
