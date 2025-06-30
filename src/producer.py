@@ -3,19 +3,19 @@ import random
 from config import REDIS_QUEUE_NAME, REDIS_SET_NAME
 
 class GenerateVariants():
-    def __init__(self, file_path, redis, seed=None):
+    def __init__(self, redis, file_path, seed=None):
         self.redis = redis
         if seed is not None:
             random.seed(seed)
 
-        with open(file_path, "r") as f:
+        with open(file_path, "r", encoding="utf8") as f:
             data = orjson.loads(f.read())
-            self.attribute_options = self.get_attribute_options(data)
+        self.attribute_options = self.get_attribute_options(data)
 
     def start(self):
        self.generate_and_enqueue()
 
-    def generate_and_enqueue(self, count=100000):
+    def generate_and_enqueue(self, count=1000):
         print(f"Generating and enqueuing {count} variants...")
         for _ in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
@@ -23,13 +23,11 @@ class GenerateVariants():
             if not self.redis.sismember(REDIS_SET_NAME, hashed):
                 self.redis.sadd(REDIS_SET_NAME, hashed)
                 self.redis.rpush(REDIS_QUEUE_NAME, hashed)
+            print(f"Enqueued variant {_ + 1}/{count}")
         print("Done.")
 
     @staticmethod
-    def get_attribute_options():
-        with open("reference/output.json", "r") as f:
-            data = orjson.loads(f.read())
-
+    def get_attribute_options(data):
         attribute_options = {}
         for obj in data['d']["Pages"]:
             for screen in obj["Screens"]:
