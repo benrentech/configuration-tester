@@ -1,6 +1,6 @@
 import orjson
 import random
-from config import REDIS_QUEUE_NAME
+from config import REDIS_QUEUE_NAME, REDIS_SET_NAME
 
 class GenerateVariants():
     def __init__(self, file_path, redis, seed=None):
@@ -12,14 +12,17 @@ class GenerateVariants():
             data = orjson.loads(f.read())
             self.attribute_options = self.get_attribute_options(data)
 
-    async def start(self):
-        await self.generate_and_enqueue()
+    def start(self):
+       self.generate_and_enqueue()
 
-    async def generate_and_enqueue(self, count=100000):
+    def generate_and_enqueue(self, count=100000):
         print(f"Generating and enqueuing {count} variants...")
         for _ in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
-            await self.redis.lpush(REDIS_QUEUE_NAME, orjson.dumps(variant, option=orjson.OPT_SORT_KEYS))
+            hashed = orjson.dumps(variant, option=orjson.OPT_SORT_KEYS)
+            if not self.redis.sismember(REDIS_SET_NAME, hashed):
+                self.redis.sadd(REDIS_SET_NAME, hashed)
+                self.redis.rpush(REDIS_QUEUE_NAME, hashed)
         print("Done.")
 
     @staticmethod
