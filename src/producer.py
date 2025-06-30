@@ -1,10 +1,10 @@
+import sqlite3
 import orjson
 import random
-from config import REDIS_QUEUE_NAME, REDIS_SET_NAME
 
 class GenerateVariants():
-    def __init__(self, redis, file_path, seed=None):
-        self.redis = redis
+    def __init__(self, db_path, file_path, seed=None):
+        self.db_path = db_path
         if seed is not None:
             random.seed(seed)
 
@@ -13,17 +13,32 @@ class GenerateVariants():
         self.attribute_options = self.get_attribute_options(data)
 
     def start(self):
-       self.generate_and_enqueue()
+       conn = sqlite3.connect(self.db_path)
+       self.generate_and_enqueue(conn)
+       conn.close()
 
-    def generate_and_enqueue(self, count=1000):
+    def generate_and_enqueue(self, conn, count=1000):
         print(f"Generating and enqueuing {count} variants...")
-        for _ in range(count):
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS queue (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                data TEXT,
+                hash TEXT
+            )
+        """)
+        for i in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
-            hashed = orjson.dumps(variant, option=orjson.OPT_SORT_KEYS)
-            if not self.redis.sismember(REDIS_SET_NAME, hashed):
-                self.redis.sadd(REDIS_SET_NAME, hashed)
-                self.redis.rpush(REDIS_QUEUE_NAME, hashed)
-            print(f"Enqueued variant {_ + 1}/{count}")
+            variant_dump = orjson.dumps(variant, option=orjson.OPT_SORT_KEYS)
+            hash_str = variant_dump.hex()
+            
+            cursor.execute("SELECT 1 FROM queue WHERE hash = ?", (hash_str,))
+            if not cursor.fetchone():
+                cursor.execute("INSERT INTO queue (hash, data) VALUES (?, ?)", (hash_str, variant_dump))
+            if (i + 1) % 10 == 0:
+                conn.commit()
+            print(f"Enqueued variant {i + 1}/{count}")
+        conn.commit()
         print("Done.")
 
     @staticmethod
