@@ -1,0 +1,11 @@
+[project]
+name = "config-testerv2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "aioredis>=2.0.1",
+    "orjson>=3.10.18",
+]
