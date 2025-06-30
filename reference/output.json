@@ -1,0 +1,1902 @@
+{
+    "d": {
+        "Pages": [
+            {
+                "Caption": "Hot Cabinet",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "66778204-e24c-41f2-af5a-26aacc5d7e44",
+                                "Name": "CabinetType",
+                                "Caption": "Cabinet Type",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "Non-Insulated",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonHorizontal",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "Insulated",
+                                        "Caption": "Insulated",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "Non-Insulated",
+                                        "Caption": "Non-Insulated",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "OffTheGrid",
+                                        "Caption": "Off The Grid",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "73ea56be-ce3c-4a86-a343-0870289d9210",
+                                "Name": "CabinetSize",
+                                "Caption": "Cabinet Size",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "HalfSize",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "FullSize",
+                                        "Caption": "Full Size",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "HalfSize",
+                                        "Caption": "Half Size",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "3/4Size",
+                                        "Caption": "3/4 Size",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "UC",
+                                        "Caption": "UC",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "CT",
+                                        "Caption": "CT",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "Stacked",
+                                        "Caption": "Stacked",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "c72226bc-9b43-437f-b11a-70184445abcd",
+                                "Name": "HeatingType",
+                                "Caption": "Heating Type",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "Convection",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "Convection",
+                                        "Caption": "Convection",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "Radiant",
+                                        "Caption": "Radiant",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "64eb44db-632d-43ee-99f5-46cfd28b4bf6",
+                                "Name": "Humidity",
+                                "Caption": "Humidity",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "AquaTemp with Humidity",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "No Humidity",
+                                        "Caption": "No Humidity",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "AquaTemp with Humidity",
+                                        "Caption": "AquaTemp with Humidity",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "49428bb0-bd20-48a7-af1e-d52f3b852d4c",
+                                "Name": "BodyMaterial",
+                                "Caption": "Body Material",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "SS",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "SS",
+                                        "Caption": "Stainless Steel",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "ModelCode",
+                                                "Type": 0,
+                                                "Value": "S"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "ALU",
+                                        "Caption": "Aluminium",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "ModelCode",
+                                                "Type": 0,
+                                                "Value": "A"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "2f2f8d30-d6c8-4c57-8d07-1756a8a13f0a",
+                                "Name": "PassThruCabinet",
+                                "Caption": "Pass Thru Cabinet",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "No",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "No",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "Yes",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "47b3a415-95ec-4d22-a6e6-d0130cca4147",
+                                "Name": "AnglesInsert",
+                                "Caption": "Angles Insert",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "Fixed Rack Insert",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "Fixed Rack Insert",
+                                        "Caption": "Fixed Rack Insert",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "Universal Angles",
+                                        "Caption": "Universal Angles",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "Merchandising",
+                                        "Caption": "Merchandising",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "H-138-S-1834D",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": "https://www.crescor.com/product/H138S1834D/",
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    }
+                ]
+            },
+            {
+                "Caption": "Accesories & Options",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "0d94008a-df09-4240-8142-875f6ec3769d",
+                                "Name": "Lock",
+                                "Caption": "Lock",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "Lock Hasp",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "Key Lock Handles",
+                                        "Caption": "Key Lock Handles",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/KeyLock.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "134"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "Lock Hasp",
+                                        "Caption": "Lock Hasp",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/LockHasp.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "178"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "050704e4-2fbe-4c6f-a591-981ba7a94030",
+                                "Name": "Volt",
+                                "Caption": "Volt",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "240 Volt",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonHorizontal",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "208 Volt",
+                                        "Caption": "208 Volt",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "542"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "240 Volt",
+                                        "Caption": "240 Volt",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "542"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "606ddc8d-d0e6-4a6f-ae8d-4a8ec665e2a7",
+                                "Name": "Bumper",
+                                "Caption": "Bumper",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "Perimeter Bumper",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "Corner Bumper",
+                                        "Caption": "Corner Bumper",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/CornerBumper.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "355"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "Perimeter Bumper",
+                                        "Caption": "Perimeter Bumper",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/PerimeterBumper.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "600"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "7264fbd8-598c-4858-aa34-6e9be92c8a89",
+                                "Name": "Caster",
+                                "Caption": "Caster",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "5P",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "ImageDropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "3",
+                                        "Caption": "3\" STANDARD",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/3InCaster.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "246"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "5P",
+                                        "Caption": "5\" POLYURETHANE",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/5InPolyCaster.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "246"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "6",
+                                        "Caption": "6” (NOT AVAILABLE ON AQUATEMP MODELS)",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/6InCaster.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "316"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "6P",
+                                        "Caption": "6” POLYURETHANE (NOT AVAILABLE ON AQUATEMP MODELS)",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/6InPolyCaster.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "355"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "6BDL",
+                                        "Caption": "6” BOLT DOWN LEG",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/6InBoltCaster.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "246"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "8",
+                                        "Caption": "8\" STANDARD",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/8InCaster.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "519"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": true,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Accessories ",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "d09b56e9-b2b5-4bd1-8ebe-66b7775e461d",
+                                "Name": "GlassDoor",
+                                "Caption": "Tempered Glass Door Windows",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "True",
+                                "DisplayValue": null,
+                                "IsRequired": false,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "c58f3ba9-d4e5-4898-b0df-925263c1e17b",
+                                "Name": "ExtraAngles",
+                                "Caption": "Extra Universal Angles",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "False",
+                                "DisplayValue": null,
+                                "IsRequired": false,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "c3b8886c-fa33-4033-9973-1faff2dddb20",
+                                "Name": "TransportingAngles",
+                                "Caption": "Change from standard chrome plated wire angles to angles designed for transporting",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "False",
+                                "DisplayValue": null,
+                                "IsRequired": false,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "5aa7d6e0-e44f-4e3a-a3e8-ad471ed09dd2",
+                                "Name": "RearPushHandle",
+                                "Caption": "Rear Push Handle",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "False",
+                                "DisplayValue": null,
+                                "IsRequired": false,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "68776a43-8d96-4db2-8729-60f11d5c6021",
+                                "Name": "FloorLock",
+                                "Caption": "Floor Lock for use with 5 casters",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "False",
+                                "DisplayValue": null,
+                                "IsRequired": false,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "f69c9f53-31ca-4fe1-9ed8-5913a919ea56",
+                                "Name": "RemovableCordSet",
+                                "Caption": "Removable Cord Set",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "False",
+                                "DisplayValue": null,
+                                "IsRequired": false,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "c648ca1e-8379-4d27-b569-2abec6a96272",
+                                "Name": "WattUpgrade",
+                                "Caption": "Upgrade to 2000 Watt Power Unit",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "False",
+                                "DisplayValue": null,
+                                "IsRequired": false,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Messages": [],
+        "ActionableMessage": null,
+        "Details": [
+            {
+                "Caption": "Non-Insulated",
+                "Value": "Included",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "Half Size",
+                "Value": "Included",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "Convection",
+                "Value": "Included",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "AquaTemp with Humidity",
+                "Value": "Included",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "Stainless Steel",
+                "Value": "Included",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "No",
+                "Value": "Included",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "Fixed Rack Insert",
+                "Value": "Included",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "                                                                                              ",
+                "Value": "                                                                    ",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "H138S1834D",
+                "Value": "11928.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "",
+                "Value": "",
+                "IsHighlighted": false,
+                "Type": 6
+            },
+            {
+                "Caption": "Pricing",
+                "Value": "",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "Lock Hasp",
+                "Value": "178.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "240 Volt",
+                "Value": "542.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Perimeter Bumper",
+                "Value": "600.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "5\" POLYURETHANE",
+                "Value": "246.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Glass Door",
+                "Value": "1123.00",
+                "IsHighlighted": false,
+                "Type": 5
+            }
+        ],
+        "SelectionSummary": [
+            {
+                "Caption": "Hot Cabinet",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 0
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Cabinet Type",
+                "Value": "Non-Insulated",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Cabinet Size",
+                "Value": "Half Size",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Heating Type",
+                "Value": "Convection",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Humidity",
+                "Value": "AquaTemp with Humidity",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Body Material",
+                "Value": "Stainless Steel",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Pass Thru Cabinet",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Angles Insert",
+                "Value": "Fixed Rack Insert",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "H-138-S-1834D",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Accesories & Options",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 0
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Lock",
+                "Value": "Lock Hasp",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Volt",
+                "Value": "240 Volt",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Bumper",
+                "Value": "Perimeter Bumper",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Caster",
+                "Value": "5\" POLYURETHANE",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Accessories ",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Tempered Glass Door Windows",
+                "Value": "Yes",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Extra Universal Angles",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Change from standard chrome plated wire angles to angles designed for transporting",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Rear Push Handle",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Floor Lock for use with 5 casters",
+                "Value": "False",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Removable Cord Set",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Upgrade to 2000 Watt Power Unit",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            }
+        ],
+        "ImageUrl": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/Model/HotCabinet/HotCabinet.png",
+        "IsExecutionComplete": true,
+        "OptionToFocus": "c648ca1e-8379-4d27-b569-2abec6a96272",
+        "ConfiguredPrice": 14617,
+        "CurrencyCode": null,
+        "ExchangeRate": 0,
+        "CultureName": "en-US",
+        "IsPartialSaveEnabled": true,
+        "SessionID": "RENAISSANCETECH_DEM~RENAISSANCETECH_DEM~4a67a115-3dd5-4f3c-a3d6-cbdcaa2fa64d",
+        "DefaultInformationPane": "Image",
+        "ExternalApplications": [],
+        "DataGrids": [],
+        "TextFormattingEnabled": true
+    }
+}
