@@ -1,9 +1,11 @@
+import hashlib
 import sqlite3
 import orjson
 import random
 
 class GenerateVariants():
-    def __init__(self, file_path, seed=None):
+    def __init__(self, file_path, db_path, seed=None):
+        self.db_path = db_path
         if seed is not None:
             random.seed(seed)
 
@@ -11,8 +13,8 @@ class GenerateVariants():
             data = orjson.loads(f.read())
         self.attribute_options = self.get_attribute_options(data)
 
-    def generate(self, db_path='variants.db'):
-       conn = sqlite3.connect(db_path)
+    def generate(self):
+       conn = sqlite3.connect(self.db_path)
        self.generate_and_enqueue(conn)
        conn.close()
 
@@ -23,13 +25,13 @@ class GenerateVariants():
             CREATE TABLE IF NOT EXISTS queue (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 data TEXT,
-                hash TEXT
+                hash TEXT UNIQUE
             )
         """)
         for i in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
             variant_dump = orjson.dumps(variant, option=orjson.OPT_SORT_KEYS)
-            hash_str = variant_dump.hex()
+            hash_str = hashlib.sha256(variant_dump).hexdigest()
             
             cursor.execute("SELECT 1 FROM queue WHERE hash = ?", (hash_str,))
             if not cursor.fetchone():
@@ -54,10 +56,8 @@ class GenerateVariants():
                 if not selectable_values:
                     continue
 
-                opts = []
-                for val in selectable_values:
-                    opts.append(val["Caption"])
-                attribute_options[screen_options[0]["Caption"]] = opts
+                options = [val["Caption"] for val in selectable_values]
+                attribute_options[screen_options[0]["Caption"]] = options
 
         return attribute_options
     
