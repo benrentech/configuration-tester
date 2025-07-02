@@ -13,12 +13,12 @@ class GenerateVariants():
             data = orjson.loads(f.read())
         self.attribute_options = self.get_attribute_options(data)
 
-    def generate(self):
+    def generate(self, count=1000):
        conn = sqlite3.connect(self.db_path)
-       self.generate_and_enqueue(conn)
+       self.generate_and_enqueue(conn, count)
        conn.close()
 
-    def generate_and_enqueue(self, conn, count=1000):
+    def generate_and_enqueue(self, conn, count):
         print(f"Generating and enqueuing {count} variants...")
         cursor = conn.cursor()
         cursor.execute("""
