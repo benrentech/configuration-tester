@@ -21,13 +21,6 @@ class GenerateVariants():
     def generate_and_enqueue(self, conn, count):
         print(f"Generating and enqueuing {count} variants...")
         cursor = conn.cursor()
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS queue (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                data TEXT,
-                hash TEXT UNIQUE
-            )
-        """)
         for i in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
             variant_dump = orjson.dumps(variant, option=orjson.OPT_SORT_KEYS)

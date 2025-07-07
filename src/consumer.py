@@ -1,6 +1,7 @@
 import asyncio
 import aiosqlite
 import aiohttp
+import orjson
 
 class Sender:
     def __init__(self, db_path, endpoint_url):
@@ -42,22 +43,21 @@ class Sender:
                 await db.execute("INSERT INTO finished_variants (id, data) VALUES (?, ?)", item)
                 await db.commit()
 
-    # TODO: push info to queue
     async def _worker(self, read_queue, write_queue, session, worker_id):
         while True:
             variant = await read_queue.get()
-            v_id, data = variant
 
             # Signal other works to stop and shut down worker
             if variant is None:
                 await read_queue.put(None)
                 break
 
+            v_id, data = variant
             async with session.post(self.endpoint_url, data=data) as resp:
                 if resp.status == 200:
                     # Sending to response to db, currently placeholder
                     data = await resp.json()
-                    await write_queue.put((v_id, data))
+                    await write_queue.put((v_id, orjson.dumps(data)))
 
                     print(f"Worker {worker_id} successfully sent variant {v_id}.")
                 else:
@@ -72,7 +72,7 @@ class Sender:
             writer = asyncio.create_task(self._db_writer(write_queue))
 
             worker_tasks = [
-                asyncio.create_task(self._worker(read_queue, session, i))
+                asyncio.create_task(self._worker(read_queue, write_queue, session, i))
                 for i in range(num_workers)
             ]
             await reader
