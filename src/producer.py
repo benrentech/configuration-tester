@@ -40,7 +40,7 @@ class GenerateVariants():
                 conn.commit()
             print(f"Enqueued variant {i + 1}/{count}")
         conn.commit()
-        print("Done.")
+        print("Finished generating variants.")
 
     @staticmethod
     def get_attribute_options(data):
