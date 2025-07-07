@@ -1,9 +1,8 @@
 import asyncio
 import aiosqlite
-import aiohttp
+import httpx
 import orjson
 # TODO: Better error handling on bad request
-# TODO: Improve writing db performance
 # TODO: Verify finished table is ok
 
 class Sender:
@@ -61,7 +60,7 @@ class Sender:
                 await db.commit()
                 print(f"Inserted final batch of {len(buffer)} variants into db")
 
-    async def _worker(self, read_queue, write_queue, session, worker_id):
+    async def _worker(self, read_queue, write_queue, client, worker_id):
         while True:
             variant = await read_queue.get()
 
@@ -71,26 +70,26 @@ class Sender:
                 break
 
             v_id, data = variant
-            async with session.post(self.endpoint_url, data=data) as resp:
-                if resp.status == 200:
-                    # Sending to response to db, currently placeholder
-                    data = await resp.json()
-                    await write_queue.put((v_id, orjson.dumps(data)))
 
-                    print(f"Worker {worker_id} successfully sent variant {v_id}.")
-                else:
-                    print(f"Worker {worker_id} failed to send variant {v_id}: status {resp.status}")
+            resp = await client.post(self.endpoint_url, data=data)
+            if resp.status_code == 200:
+                # Sending to response to db, currently placeholder
+                await write_queue.put((v_id, orjson.dumps(resp.json())))
+
+                print(f"Worker {worker_id} successfully sent variant {v_id}.")
+            else:
+                print(f"Worker {worker_id} failed to send variant {v_id}: status {resp.status_code}")
 
     async def start(self, num_workers):
         read_queue = asyncio.Queue(maxsize=num_workers * 10)
         write_queue = asyncio.Queue()
 
-        async with aiohttp.ClientSession() as session:
+        async with httpx.AsyncClient(http2=True) as client:
             reader = asyncio.create_task(self._db_reader(read_queue))
             writer = asyncio.create_task(self._db_writer(write_queue))
 
             worker_tasks = [
-                asyncio.create_task(self._worker(read_queue, write_queue, session, i))
+                asyncio.create_task(self._worker(read_queue, write_queue, client, i))
                 for i in range(num_workers)
             ]
             await reader
