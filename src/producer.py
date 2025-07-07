@@ -21,6 +21,7 @@ class GenerateVariants():
     def generate_and_enqueue(self, conn, count):
         print(f"Generating and enqueuing {count} variants...")
         cursor = conn.cursor()
+
         for i in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
             variant_dump = orjson.dumps(variant, option=orjson.OPT_SORT_KEYS)
@@ -29,9 +30,11 @@ class GenerateVariants():
             cursor.execute("SELECT 1 FROM queue WHERE hash = ?", (hash_str,))
             if not cursor.fetchone():
                 cursor.execute("INSERT INTO queue (hash, data) VALUES (?, ?)", (hash_str, variant_dump))
+                
             if (i + 1) % 10 == 0:
                 conn.commit()
             print(f"Enqueued variant {i + 1}/{count}")
+
         conn.commit()
         print("Finished generating variants.")
 
