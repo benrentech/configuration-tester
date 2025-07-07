@@ -5,10 +5,10 @@ import random
 
 class GenerateVariants():
     def __init__(self, file_path, db_path, seed=None):
-        self.db_path = db_path
-        if seed is not None:
+        if seed:
             random.seed(seed)
-
+        self.db_path = db_path
+        
         with open(file_path, "r", encoding="utf8") as f:
             data = orjson.loads(f.read())
         self.attribute_options = self.get_attribute_options(data)
@@ -20,7 +20,7 @@ class GenerateVariants():
 
     def generate_and_enqueue(self, conn, count):
         print(f"Generating and enqueuing {count} variants...")
-        cursor = conn.cursor()
+        cursor = conn.cursor()  
 
         for i in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
@@ -57,3 +57,16 @@ class GenerateVariants():
 
         return attribute_options
     
+
+class MultiFileVariantGenerator:
+    def __init__(self, file_paths, db_path, seed=None):
+        if seed:
+            random.seed(seed)
+        self.file_paths = file_paths
+        self.db_path = db_path
+
+    def generate(self, count_per_file=1000):
+        for path in self.file_paths:
+            print(f"\nProcessing file: {path}")
+            gen = GenerateVariants(path, self.db_path)
+            gen.generate(count=count_per_file)
