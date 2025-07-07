@@ -7,7 +7,7 @@ class Sender:
         self.db_path = db_path
         self.endpoint_url = endpoint_url
 
-    async def db_reader(self, queue):
+    async def _db_reader(self, read_queue):
         batch_size = 100
         async with aiosqlite.connect(self.db_path) as db:
             while True:
@@ -27,36 +27,60 @@ class Sender:
                     break
 
                 for variant in rows:
-                    await queue.put(variant)
+                    await read_queue.put(variant)
 
                 await db.commit()
         # Signal to workers no more data
-        await queue.put(None)
+        await read_queue.put(None)
 
+    async def _db_writer(self, write_queue):
+        async with aiosqlite.connect(self.db_path) as db:
+            while True:
+                item = await write_queue.get()
+                if item is None:
+                    break
+                await db.execute("INSERT INTO finished_variants (id, data) VALUES (?, ?)", item)
+                await db.commit()
 
-    async def _worker(self, queue, session, worker_id):
+    # TODO: push info to queue
+    async def _worker(self, read_queue, write_queue, session, worker_id):
         while True:
-            variant = await queue.get()
+            variant = await read_queue.get()
+            v_id, data = variant
+
+            # Signal other works to stop and shut down worker
             if variant is None:
-                await queue.put(None)  # Pass sentinel to other workers
+                await read_queue.put(None)
                 break
-            async with session.post(self.endpoint_url, data=variant[1]) as response:
-                if response.status == 200:
-                    print(f"Worker {worker_id} successfully sent variant {variant[0]}.")
+
+            async with session.post(self.endpoint_url, data=data) as resp:
+                if resp.status == 200:
+                    # Sending to response to db, currently placeholder
+                    data = await resp.json()
+                    await write_queue.put((v_id, data))
+
+                    print(f"Worker {worker_id} successfully sent variant {v_id}.")
                 else:
-                    print(f"Worker {worker_id} failed to send variant: {response.status}")
+                    print(f"Worker {worker_id} failed to send variant {v_id}: status {resp.status}")
 
     async def start(self, num_workers):
-        queue = asyncio.Queue(maxsize=num_workers * 10)
+        read_queue = asyncio.Queue(maxsize=num_workers * 10)
+        write_queue = asyncio.Queue()
+
         async with aiohttp.ClientSession() as session:
-            reader = asyncio.create_task(self.db_reader(queue))
+            reader = asyncio.create_task(self._db_reader(read_queue))
+            writer = asyncio.create_task(self._db_writer(write_queue))
+
             worker_tasks = [
-                asyncio.create_task(self._worker(queue, session, i))
+                asyncio.create_task(self._worker(read_queue, session, i))
                 for i in range(num_workers)
             ]
             await reader
             await asyncio.gather(*worker_tasks)
-        print("All workers have finished processing.")
+            await write_queue.put(None)  # Signal writer to shut down
+            await writer
+
+            print("All variants have finished processing.")
     
     def run(self, num_workers=10):
         asyncio.run(self.start(num_workers))
