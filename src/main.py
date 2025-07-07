@@ -31,7 +31,7 @@ def main():
     producer.generate()
 
     sender = Sender("variants.db", "https://httpbin.org/post")
-    sender.run(num_workers=100)
+    sender.run(num_workers=50)
     
 if __name__ == "__main__":
     main()

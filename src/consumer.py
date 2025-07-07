@@ -1,9 +1,6 @@
 import asyncio
 import aiosqlite
 import httpx
-import orjson
-# TODO: Better error handling on bad request
-# TODO: Verify finished table is ok
 
 class Sender:
     def __init__(self, db_path, endpoint_url):
@@ -71,14 +68,16 @@ class Sender:
 
             v_id, data = variant
 
-            resp = await client.post(self.endpoint_url, data=data)
-            if resp.status_code == 200:
-                # Sending to response to db, currently placeholder
-                await write_queue.put((v_id, orjson.dumps(resp.json())))
-
-                print(f"Worker {worker_id} successfully sent variant {v_id}.")
-            else:
-                print(f"Worker {worker_id} failed to send variant {v_id}: status {resp.status_code}")
+            try:
+                resp = await client.post(self.endpoint_url, data=data)
+                if resp.status_code == 200:
+                    # Sending to response to db, currently placeholder
+                    await write_queue.put((v_id, resp.text))
+                    print(f"Worker {worker_id} successfully sent variant {v_id}.")
+                else:
+                    print(f"Worker {worker_id} failed to send variant {v_id}: status {resp.status_code}")
+            except httpx.ReadTimeout:
+                print(f"Timeout error: Worker {worker_id} failed to send variant {v_id}")
 
     async def start(self, num_workers):
         read_queue = asyncio.Queue(maxsize=num_workers * 10)
