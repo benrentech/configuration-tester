@@ -2,6 +2,9 @@ import asyncio
 import aiosqlite
 import aiohttp
 import orjson
+# TODO: Better error handling on bad request
+# TODO: Improve writing db performance
+# TODO: Verify finished table is ok
 
 class Sender:
     def __init__(self, db_path, endpoint_url):
@@ -35,13 +38,28 @@ class Sender:
         await read_queue.put(None)
 
     async def _db_writer(self, write_queue):
+        BATCH_SIZE = 100
+        buffer = []
+
         async with aiosqlite.connect(self.db_path) as db:
             while True:
                 item = await write_queue.get()
                 if item is None:
                     break
-                await db.execute("INSERT INTO finished_variants (id, data) VALUES (?, ?)", item)
+
+                buffer.append(item)
+
+                if len(buffer) >= BATCH_SIZE:
+                    await db.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
+                    await db.commit()
+                    print(f"Inserted batch of {len(buffer)} variants into db")
+                    buffer.clear()
+
+            # Write remaining items
+            if buffer:
+                await db.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
                 await db.commit()
+                print(f"Inserted final batch of {len(buffer)} variants into db")
 
     async def _worker(self, read_queue, write_queue, session, worker_id):
         while True:
