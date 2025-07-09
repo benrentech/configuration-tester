@@ -1,8 +1,10 @@
 import hashlib
+import os
 import sqlite3
 import orjson
 import random
 
+# TODO: add string handling
 class GenerateVariants():
     def __init__(self, file_path, db_path, seed=None):
         if seed:
@@ -20,18 +22,20 @@ class GenerateVariants():
 
     def generate_and_enqueue(self, conn, count):
         print(f"Generating and enqueuing {count} variants...")
-        cursor = conn.cursor()  
+        cursor = conn.cursor()
+        commit_interval = 10
 
         for i in range(count):
             variant = {k: random.choice(v) for k, v in self.attribute_options.items()}
             variant_dump = orjson.dumps(variant, option=orjson.OPT_SORT_KEYS)
             hash_str = hashlib.sha256(variant_dump).hexdigest()
             
+            # Checks for duplicates before adding
             cursor.execute("SELECT 1 FROM queue WHERE hash = ?", (hash_str,))
             if not cursor.fetchone():
                 cursor.execute("INSERT INTO queue (hash, data) VALUES (?, ?)", (hash_str, variant_dump))
                 
-            if (i + 1) % 10 == 0:
+            if (i + 1) % commit_interval == 0:
                 conn.commit()
             print(f"Enqueued variant {i + 1}/{count}")
 
@@ -43,22 +47,33 @@ class GenerateVariants():
         attribute_options = {}
         for obj in data['d']["Pages"]:
             for screen in obj["Screens"]:
-
                 screen_options = screen["ScreenOptions"]
                 if not screen_options:
                     continue
+                screen_options = screen_options[0]
 
-                selectable_values = screen_options[0]["SelectableValues"]
-                if not selectable_values:
+                # Options must be a list since random.choice is called on it
+                match screen_options["DisplayType"]:
+                    case "CheckBox":
+                        options = [True, False]
+                    case "TextBox":
+                        options = ["test"]
+                    case "NumericTextBox":
+                        options = [0]
+                    # Most common case, handles everything with multiple options like checkboxes
+                    case _:
+                        selectable_values = screen_options["SelectableValues"]
+                        options = [val["Caption"] for val in selectable_values]
+
+                if len(options) == 0:
                     continue
 
-                options = [val["Caption"] for val in selectable_values]
-                attribute_options[screen_options[0]["Caption"]] = options
+                attribute_options[screen_options["Name"]] = options
 
         return attribute_options
     
 
-class MultiFileVariantGenerator:
+class MultiGenerator:
     def __init__(self, file_paths, db_path, seed=None):
         if seed:
             random.seed(seed)
@@ -70,3 +85,11 @@ class MultiFileVariantGenerator:
             print(f"\nProcessing file: {path}")
             gen = GenerateVariants(path, self.db_path)
             gen.generate(count=count_per_file)
+
+    @staticmethod
+    def get_file_paths(folder_path):
+        return [
+            os.path.join(folder_path, f)
+            for f in os.listdir(folder_path)
+            if os.path.isfile(os.path.join(folder_path, f))
+        ]

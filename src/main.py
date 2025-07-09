@@ -1,5 +1,5 @@
 import orjson
-from producer import GenerateVariants
+from producer import GenerateVariants, MultiGenerator
 from consumer import Sender
 import sqlite3
 from pprint import pprint
@@ -35,15 +35,23 @@ def print_rows():
         pprint(orjson.loads(row[1]))
     conn.close()
 
-def main():
-    create_tables("variants.db")
+def multi_file_gen():
+    files = MultiGenerator.get_file_paths("reference/")
+    producer = MultiGenerator(files, "variants.db")
+    producer.generate()
+
+def single_gen():
     producer = GenerateVariants("reference/output.json", "variants.db", seed=42)
     producer.generate()
 
-    print_rows()
-
+def send_variants():
     sender = Sender("variants.db", "https://httpbin.org/post")
     sender.run(num_workers=50)
-    
+
+def main():
+    create_tables("variants.db")
+    single_gen()
+    send_variants()
+
 if __name__ == "__main__":
     main()

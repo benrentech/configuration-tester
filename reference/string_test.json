@@ -1,0 +1,658 @@
+{
+	"d": {
+		"__type": "UIData:http://infor.com/pcm/v2",
+		"ConfiguredPrice": 0,
+		"CultureName": "en-US",
+		"Details": [
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Section 1- Company Information",
+				"IsHighlighted": false,
+				"Type": 4,
+				"Value": ""
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Company Name",
+				"IsHighlighted": false,
+				"Type": 3,
+				"Value": ""
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Company Address",
+				"IsHighlighted": false,
+				"Type": 4,
+				"Value": "test"
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Company City",
+				"IsHighlighted": false,
+				"Type": 3,
+				"Value": ""
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "State",
+				"IsHighlighted": false,
+				"Type": 4,
+				"Value": "test"
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Zip Code",
+				"IsHighlighted": false,
+				"Type": 4,
+				"Value": "test"
+			}
+		],
+		"ImageUrl": "https://swiftsell.app/ConfiguratorContent/IMAGES/BuildingMaintenance/initialimage.png",
+		"IsExecutionComplete": false,
+		"IsPartialSaveEnabled": true,
+		"Messages": [],
+		"OptionToFocus": "ad0e023e-a5a0-4d05-bcaf-03527075ef37",
+		"Pages": [
+			{
+				"__type": "Page:http://infor.com/pcm/v2",
+				"Caption": "Building Information",
+				"IsVisible": true,
+				"Screens": [
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "Contract Summary",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [],
+						"ShowCaption": true,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "Company Information",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [],
+						"ShowCaption": false,
+						"ShowDescription": true,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 0,
+								"Caption": "Company Name",
+								"DisplayFormat": null,
+								"DisplayPrecision": null,
+								"DisplayType": "TextBox",
+								"DisplayValue": null,
+								"ID": "7945c6c3-8c7d-4b07-8139-cd9e8af7b263",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": false,
+								"IsVisible": true,
+								"Name": "CompanyName",
+								"Ranges": [],
+								"SelectableValues": [],
+								"Tooltip": "",
+								"Type": 0,
+								"Value": ""
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 0,
+								"Caption": "Company Address",
+								"DisplayFormat": null,
+								"DisplayPrecision": null,
+								"DisplayType": "TextBox",
+								"DisplayValue": null,
+								"ID": "46e86c0c-eb40-4861-85fa-3a12eb9ffa63",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": false,
+								"IsVisible": true,
+								"Name": "CompanyAddress",
+								"Ranges": [],
+								"SelectableValues": [],
+								"Tooltip": "",
+								"Type": 0,
+								"Value": "test"
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 0,
+								"Caption": "City",
+								"DisplayFormat": null,
+								"DisplayPrecision": null,
+								"DisplayType": "TextBox",
+								"DisplayValue": null,
+								"ID": "5ca140fd-c248-416d-aa87-c34604429008",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": false,
+								"IsVisible": true,
+								"Name": "CompanyCity",
+								"Ranges": [],
+								"SelectableValues": [],
+								"Tooltip": "",
+								"Type": 0,
+								"Value": ""
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 0,
+								"Caption": "State",
+								"DisplayFormat": null,
+								"DisplayPrecision": null,
+								"DisplayType": "TextBox",
+								"DisplayValue": null,
+								"ID": "7e8dca23-c5a5-4267-b55c-e70c26ad6773",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": false,
+								"IsVisible": true,
+								"Name": "CompanyState",
+								"Ranges": [],
+								"SelectableValues": [],
+								"Tooltip": "",
+								"Type": 0,
+								"Value": "test"
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 2,
+								"Caption": "Zip",
+								"DisplayFormat": null,
+								"DisplayPrecision": null,
+								"DisplayType": "TextBox",
+								"DisplayValue": null,
+								"ID": "17e9372f-c1fb-447b-a242-6b8abc1d748a",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": false,
+								"IsVisible": true,
+								"Name": "CompanyZip",
+								"Ranges": [],
+								"SelectableValues": [],
+								"Tooltip": "",
+								"Type": 0,
+								"Value": "test"
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "Cleaning",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [],
+						"ShowCaption": false,
+						"ShowDescription": true,
+						"ShowSeparator": true
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 2,
+								"Caption": "Enter Density of Building Traffic",
+								"DisplayFormat": null,
+								"DisplayPrecision": null,
+								"DisplayType": "RadioButtonHorizontal",
+								"DisplayValue": null,
+								"ID": "4c2bdfdc-5841-47aa-b84e-ac4f9765333b",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": true,
+								"IsVisible": true,
+								"Name": "Density",
+								"Ranges": [],
+								"SelectableValues": [
+									{
+										"__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+										"Caption": "1 (Light)",
+										"ImageLink": "",
+										"IsEnabled": true,
+										"IsVisible": true,
+										"Value": "LD",
+										"CustomProperties": [
+											{
+												"__type": "CustomProperty:http://infor.com/pcm/v2",
+												"Name": "SQFTperHour",
+												"Type": 1,
+												"Value": "5000"
+											}
+										]
+									},
+									{
+										"__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+										"Caption": "2 (Average)",
+										"ImageLink": "",
+										"IsEnabled": true,
+										"IsVisible": true,
+										"Value": "MD",
+										"CustomProperties": [
+											{
+												"__type": "CustomProperty:http://infor.com/pcm/v2",
+												"Name": "SQFTperHour",
+												"Type": 1,
+												"Value": "3000"
+											}
+										]
+									},
+									{
+										"__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+										"Caption": "3 (Heavy)",
+										"ImageLink": "",
+										"IsEnabled": true,
+										"IsVisible": true,
+										"Value": "HD",
+										"CustomProperties": [
+											{
+												"__type": "CustomProperty:http://infor.com/pcm/v2",
+												"Name": "SQFTperHour",
+												"Type": 1,
+												"Value": "1500"
+											}
+										]
+									}
+								],
+								"Tooltip": "",
+								"Type": 0,
+								"Value": "MD"
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 2,
+								"Caption": "Exterior Cleaning?",
+								"DisplayFormat": null,
+								"DisplayPrecision": null,
+								"DisplayType": "RadioButtonHorizontal",
+								"DisplayValue": null,
+								"ID": "9a1b6696-96d1-481d-a268-37e61adcc080",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": true,
+								"IsVisible": true,
+								"Name": "ExteriorWorkYesNo",
+								"Ranges": [],
+								"SelectableValues": [
+									{
+										"__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+										"Caption": "Yes",
+										"ImageLink": "",
+										"IsEnabled": true,
+										"IsVisible": true,
+										"Value": "Y",
+										"CustomProperties": []
+									},
+									{
+										"__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+										"Caption": "No",
+										"ImageLink": "",
+										"IsEnabled": true,
+										"IsVisible": true,
+										"Value": "N",
+										"CustomProperties": []
+									}
+								],
+								"Tooltip": "",
+								"Type": 0,
+								"Value": "N"
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					},
+					{
+						"__type": "Screen:http://infor.com/pcm/v2",
+						"ApplicationLink": null,
+						"Caption": "",
+						"Description": "",
+						"ImageLink": null,
+						"InformationLink": null,
+						"IsVisible": true,
+						"ScreenOptions": [
+							{
+								"__type": "ScreenOption:http://infor.com/pcm/v2",
+								"ApplicationLink": null,
+								"AutoContinueMode": 2,
+								"Caption": "Enter Number of Floors",
+								"DisplayFormat": "Decimal",
+								"DisplayPrecision": "0",
+								"DisplayType": "NumericTextBox",
+								"DisplayValue": null,
+								"ID": "ad0e023e-a5a0-4d05-bcaf-03527075ef37",
+								"InformationLink": null,
+								"InformationMessage": "",
+								"IsDisplayableInRapidEntry": true,
+								"IsEnabled": true,
+								"IsGlobalPinned": false,
+								"IsHighlighted": false,
+								"IsOverridden": false,
+								"IsPinnable": false,
+								"IsPinnableAcross": false,
+								"IsPinned": false,
+								"IsRequired": true,
+								"IsVisible": true,
+								"Name": "Floors",
+								"Ranges": [],
+								"SelectableValues": [],
+								"Tooltip": "",
+								"Type": 1,
+								"Value": ""
+							}
+						],
+						"ShowCaption": false,
+						"ShowDescription": false,
+						"ShowSeparator": false
+					}
+				]
+			}
+		],
+		"SelectionSummary": [
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Building Information",
+				"IsHighlighted": false,
+				"Type": 0,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Contract Summary",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Company Name",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": ""
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Company Address",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": "test"
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "City",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": ""
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "State",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": "test"
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Zip",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": "test"
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Enter Density of Building Traffic",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": "2 (Average)"
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Exterior Cleaning?",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": "No"
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "",
+				"IsHighlighted": false,
+				"Type": 1,
+				"Value": null
+			},
+			{
+				"__type": "Detail:http://infor.com/pcm/v2",
+				"Caption": "Enter Number of Floors",
+				"IsHighlighted": false,
+				"Type": 2,
+				"Value": ""
+			}
+		]
+	}
+}
