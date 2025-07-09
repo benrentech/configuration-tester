@@ -6,30 +6,30 @@ class Sender:
     def __init__(self, db_path, endpoint_url):
         self.db_path = db_path
         self.endpoint_url = endpoint_url
+        self.conn = None
 
     async def _db_reader(self, read_queue):
         batch_size = 100
-        async with aiosqlite.connect(self.db_path) as db:
-            while True:
-                async with db.execute(
-                    """
-                    DELETE FROM queue
-                    WHERE id IN (
-                        SELECT id FROM queue ORDER BY id LIMIT ?
-                    ) RETURNING id, data
-                    """,
-                    (batch_size,)
-                ) as cursor:
-                    rows = await cursor.fetchall()
-                
-                if not rows:
-                    print("No more variants in the queue.")
-                    break
+        while True:
+            async with self.conn.execute(
+                """
+                DELETE FROM queue
+                WHERE id IN (
+                    SELECT id FROM queue ORDER BY id LIMIT ?
+                ) RETURNING id, data
+                """,
+                (batch_size,)
+            ) as cursor:
+                rows = await cursor.fetchall()
+            
+            if not rows:
+                print("No more variants in the queue.")
+                break
 
-                for variant in rows:
-                    await read_queue.put(variant)
+            for variant in rows:
+                await read_queue.put(variant)
 
-                await db.commit()
+            await self.conn.commit()
         # Signal to workers no more data
         await read_queue.put(None)
 
@@ -37,25 +37,24 @@ class Sender:
         BATCH_SIZE = 100
         buffer = []
 
-        async with aiosqlite.connect(self.db_path) as db:
-            while True:
-                item = await write_queue.get()
-                if item is None:
-                    break
+        while True:
+            item = await write_queue.get()
+            if item is None:
+                break
 
-                buffer.append(item)
+            buffer.append(item)
 
-                if len(buffer) >= BATCH_SIZE:
-                    await db.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
-                    await db.commit()
-                    print(f"Inserted batch of {len(buffer)} variants into db")
-                    buffer.clear()
+            if len(buffer) >= BATCH_SIZE:
+                await self.conn.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
+                await self.conn.commit()
+                print(f"Inserted batch of {len(buffer)} variants into database")
+                buffer.clear()
 
-            # Write remaining items
-            if buffer:
-                await db.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
-                await db.commit()
-                print(f"Inserted final batch of {len(buffer)} variants into db")
+        # Write remaining items
+        if buffer:
+            await self.conn.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
+            await self.conn.commit()
+            print(f"Inserted final batch of {len(buffer)} variants into database")
 
     async def _worker(self, read_queue, write_queue, client, worker_id):
         while True:
@@ -71,7 +70,7 @@ class Sender:
             try:
                 resp = await client.post(self.endpoint_url, data=data)
                 if resp.status_code == 200:
-                    # Sending to response to db, currently placeholder
+                    # Sending to response to self.conn, currently placeholder
                     await write_queue.put((v_id, resp.text))
                     print(f"Worker {worker_id} successfully sent variant {v_id}.")
                 else:
@@ -83,7 +82,12 @@ class Sender:
         read_queue = asyncio.Queue(maxsize=num_workers * 10)
         write_queue = asyncio.Queue()
 
-        async with httpx.AsyncClient(http2=True) as client:
+        self.conn = await aiosqlite.connect(self.db_path)
+        await self.conn.execute("PRAGMA journal_mode=WAL;")
+        await self.conn.execute("PRAGMA temp_store=memory;")
+        await self.conn.execute("PRAGMA synchronous=NORMAL;")
+
+        async with httpx.AsyncClient(http2=True, timeout=1.0) as client:
             reader = asyncio.create_task(self._db_reader(read_queue))
             writer = asyncio.create_task(self._db_writer(write_queue))
 
@@ -97,6 +101,8 @@ class Sender:
             await writer
 
             print("All variants have finished processing.")
+
+        await self.conn.close()
     
     def run(self, num_workers=10):
         asyncio.run(self.start(num_workers))

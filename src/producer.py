@@ -4,7 +4,6 @@ import sqlite3
 import orjson
 import random
 
-# TODO: add string handling
 class GenerateVariants():
     def __init__(self, file_path, db_path, seed=None):
         if seed:
