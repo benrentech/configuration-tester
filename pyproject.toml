@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "aiosqlite>=0.21.0",
+    "dotenv>=0.9.9",
     "httpx[http2]>=0.28.1",
     "orjson>=3.10.18",
+    "pythonnet>=3.0.5",
 ]
