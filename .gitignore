@@ -206,3 +206,11 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 variants.db
+csharp/ADODB.dll
+csharp/file.cs
+csharp/RenTechLaunchConfig.dll
+.gitignore
+csharp/todo.md
+.gitignore
+csharp/RenTechLaunchConfig.pdb
+csharp/TDCI.Configurator.Integration.Core.dll

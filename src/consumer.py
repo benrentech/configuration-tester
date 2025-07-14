@@ -2,6 +2,7 @@ import asyncio
 import aiosqlite
 import httpx
 
+
 class Sender:
     def __init__(self, db_path, endpoint_url):
         self.db_path = db_path
@@ -18,10 +19,10 @@ class Sender:
                     SELECT id FROM queue ORDER BY id LIMIT ?
                 ) RETURNING id, data
                 """,
-                (batch_size,)
+                (batch_size,),
             ) as cursor:
                 rows = await cursor.fetchall()
-            
+
             if not rows:
                 print("No more variants in the queue.")
                 break
@@ -45,14 +46,18 @@ class Sender:
             buffer.append(item)
 
             if len(buffer) >= BATCH_SIZE:
-                await self.conn.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
+                await self.conn.executemany(
+                    "INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer
+                )
                 await self.conn.commit()
                 print(f"Inserted batch of {len(buffer)} variants into database")
                 buffer.clear()
 
         # Write remaining items
         if buffer:
-            await self.conn.executemany("INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer)
+            await self.conn.executemany(
+                "INSERT INTO finished_variants (id, data) VALUES (?, ?)", buffer
+            )
             await self.conn.commit()
             print(f"Inserted final batch of {len(buffer)} variants into database")
 
@@ -74,9 +79,13 @@ class Sender:
                     await write_queue.put((v_id, resp.text))
                     print(f"Worker {worker_id} successfully sent variant {v_id}.")
                 else:
-                    print(f"Worker {worker_id} failed to send variant {v_id}: status {resp.status_code}")
+                    print(
+                        f"Worker {worker_id} failed to send variant {v_id}: status {resp.status_code}"
+                    )
             except httpx.ReadTimeout:
-                print(f"Timeout error: Worker {worker_id} failed to send variant {v_id}")
+                print(
+                    f"Timeout error: Worker {worker_id} failed to send variant {v_id}"
+                )
 
     async def start(self, num_workers):
         read_queue = asyncio.Queue(maxsize=num_workers * 10)
@@ -103,6 +112,6 @@ class Sender:
             print("All variants have finished processing.")
 
         await self.conn.close()
-    
+
     def run(self, num_workers=10):
         asyncio.run(self.start(num_workers))
