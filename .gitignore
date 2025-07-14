@@ -214,3 +214,6 @@ csharp/todo.md
 .gitignore
 csharp/RenTechLaunchConfig.pdb
 csharp/TDCI.Configurator.Integration.Core.dll
+src/main.py
+variants.db-wal
+variants.db-shm

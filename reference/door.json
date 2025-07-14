@@ -1,0 +1,1618 @@
+{
+    "d": {
+        "__type": "UIData:http://infor.com/pcm/v2",
+        "ConfiguredPrice": 259,
+        "CultureName": "en-US",
+        "Details": [
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Base Price:               ",
+                "IsHighlighted": false,
+                "Type": 5,
+                "Value": "219.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Hickory Price:",
+                "IsHighlighted": false,
+                "Type": 5,
+                "Value": "40.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 6,
+                "Value": ""
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Total Price:",
+                "IsHighlighted": false,
+                "Type": 5,
+                "Value": "259.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 4,
+                "Value": ""
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Description",
+                "IsHighlighted": false,
+                "Type": 4,
+                "Value": "Model: 80inx30in Hickory Door with Square Panel, Square Top with Natural Stain"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "SKU",
+                "IsHighlighted": false,
+                "Type": 4,
+                "Value": "SKU: H.HN.SS.30.80.TR.B"
+            }
+        ],
+        "ImageUrl": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/hickory.jpg",
+        "IsExecutionComplete": true,
+        "IsPartialSaveEnabled": true,
+        "Messages": [],
+        "OptionToFocus": "675d80e3-3eb9-4557-a748-dfd71ed8acf5",
+        "Pages": [
+            {
+                "__type": "Page:http://infor.com/pcm/v2",
+                "Caption": "Main Options",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "Door Options ",
+                        "Description": "Cloud Ruleset = AMC.Wood Door",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Wood Species:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayValue": null,
+                                "ID": "18223a45-4e76-437d-95d0-77d8533f0341",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Species",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Cherry",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDSpecies/C.JPG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "C",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Panel",
+                                                "Type": 0,
+                                                "Value": "CH-50000"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Hickory",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDSpecies/H.JPG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "H",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Panel",
+                                                "Type": 0,
+                                                "Value": "HK-50000"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Maple",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDSpecies/M.JPG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "M",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Panel",
+                                                "Type": 0,
+                                                "Value": "MP-55000"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Oak",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDSpecies/O.JPG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "O",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Panel",
+                                                "Type": 0,
+                                                "Value": "OK-50000"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 0,
+                                "Value": "H"
+                            }
+                        ],
+                        "ShowCaption": true,
+                        "ShowDescription": true,
+                        "ShowSeparator": true
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Stain Color:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayValue": null,
+                                "ID": "bb0f204f-4d9b-4aa8-8262-a4226083b2fe",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Stain",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Cider",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDStain/HC.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "HC",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Natural",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDStain/HN.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "HN",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 0,
+                                "Value": "HN"
+                            }
+                        ],
+                        "ShowCaption": false,
+                        "ShowDescription": false,
+                        "ShowSeparator": false
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "Construction",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Profile:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "ImageDropDown",
+                                "DisplayValue": null,
+                                "ID": "9dd89ae3-bd77-4e77-b44e-80a400f0e014",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Profile",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Roman Ogee",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/OG.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "OG",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Square Stick",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/SS.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "SS",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Quarter Bead",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/QB.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "QB",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Quarter Round",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/QR.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "QR",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "One Step",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/OS.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "OS",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Bevel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/BV.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "BV",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Traditional",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/TR.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "TR",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Low Profile",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/LP.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "LP",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Bolection Moulding",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/BM.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "BM",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Big Bolection Moulding",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDProfile/BB.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "BB",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 0,
+                                "Value": "TR"
+                            }
+                        ],
+                        "ShowCaption": true,
+                        "ShowDescription": true,
+                        "ShowSeparator": true
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "Style and Size",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Door Style:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "DropDown",
+                                "DisplayValue": null,
+                                "ID": "4240eab3-37a7-45a4-b64d-f1da826782fd",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Style",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Square Panel, Square Top",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDStyle/SquareSquare.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "SS",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FlexModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\SS"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Arch Panel, Square Top",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDStyle/SquareArch.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "SA",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FlexModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\SA"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Arch Panel, Arch Top",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDStyle/ArchArch.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "AA",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FlexModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\AA"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Radius Panel, Square Top",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDStyle/SquareRadius.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "SR",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FlexModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\SR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Radius Panel, Radius Top",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDStyle/RadiusRadius.png",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "RR",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FlexModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\RR"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 0,
+                                "Value": "SS"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Width:",
+                                "DisplayFormat": "Decimal",
+                                "DisplayPrecision": "2",
+                                "DisplayType": "NumericTextBox",
+                                "DisplayValue": null,
+                                "ID": "675d80e3-3eb9-4557-a748-dfd71ed8acf5",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Width",
+                                "Ranges": [
+                                    {
+                                        "__type": "Range:http://infor.com/pcm/v2",
+                                        "Increment": 0.25,
+                                        "Max": 48,
+                                        "Min": 18
+                                    }
+                                ],
+                                "SelectableValues": [],
+                                "Tooltip": "",
+                                "Type": 1,
+                                "Value": "30.00"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Height:",
+                                "DisplayFormat": "Decimal",
+                                "DisplayPrecision": "2",
+                                "DisplayType": "NumericTextBox",
+                                "DisplayValue": null,
+                                "ID": "cc055242-0fa1-4d55-8e68-1d8720a3bece",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Height",
+                                "Ranges": [
+                                    {
+                                        "__type": "Range:http://infor.com/pcm/v2",
+                                        "Increment": 0.25,
+                                        "Max": 96,
+                                        "Min": 60
+                                    }
+                                ],
+                                "SelectableValues": [],
+                                "Tooltip": "",
+                                "Type": 1,
+                                "Value": "80.00"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Thickness:",
+                                "DisplayFormat": "Decimal",
+                                "DisplayPrecision": "3",
+                                "DisplayType": "NumericTextBox",
+                                "DisplayValue": null,
+                                "ID": "184d8124-37d9-450a-8c22-475061ea1af2",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": false,
+                                "IsVisible": false,
+                                "Name": "Thickness",
+                                "Ranges": [],
+                                "SelectableValues": [],
+                                "Tooltip": "",
+                                "Type": 1,
+                                "Value": "1.375"
+                            }
+                        ],
+                        "ShowCaption": true,
+                        "ShowDescription": true,
+                        "ShowSeparator": true
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Style:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "ImageDropDown",
+                                "DisplayValue": null,
+                                "ID": "5be6977d-f348-4d85-a420-ef5e83831535",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Panel",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Raised Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDPanel/A.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "A",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Item",
+                                                "Type": 0,
+                                                "Value": "RP-45300"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Cost",
+                                                "Type": 1,
+                                                "Value": "3.23"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "LeadTime",
+                                                "Type": 0,
+                                                "Value": "1"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Scoop Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDPanel/B.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "B",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Item",
+                                                "Type": 0,
+                                                "Value": "SP-34600"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Cost",
+                                                "Type": 1,
+                                                "Value": "4.31"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "LeadTime",
+                                                "Type": 0,
+                                                "Value": "1"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Flat Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDPanel/C.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "C",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Item",
+                                                "Type": 0,
+                                                "Value": "FP-97500"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Cost",
+                                                "Type": 1,
+                                                "Value": "5.78"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "LeadTime",
+                                                "Type": 0,
+                                                "Value": "2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Double Hip Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WD/WDPanel/D.PNG",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "D",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Item",
+                                                "Type": 0,
+                                                "Value": "DH-23500"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "Cost",
+                                                "Type": 1,
+                                                "Value": "9.54"
+                                            },
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "LeadTime",
+                                                "Type": 0,
+                                                "Value": "3"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 0,
+                                "Value": "B"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 2,
+                                "Caption": "Exterior Treatment:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayValue": null,
+                                "ID": "9a694055-4176-4400-8cf1-49cb39ea50e3",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "ExteriorTreatment",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Yes",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "True",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "No",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "False",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 2,
+                                "Value": "False"
+                            }
+                        ],
+                        "ShowCaption": false,
+                        "ShowDescription": false,
+                        "ShowSeparator": false
+                    }
+                ]
+            },
+            {
+                "__type": "Page:http://infor.com/pcm/v2",
+                "Caption": "Dimensions",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "",
+                        "Description": "Dimensions",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Stile Width:",
+                                "DisplayFormat": "Decimal",
+                                "DisplayPrecision": "2",
+                                "DisplayType": "NumericTextBox",
+                                "DisplayValue": null,
+                                "ID": "de83b3fd-815b-436d-8643-a9ffbb5aa4ff",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Stile",
+                                "Ranges": [],
+                                "SelectableValues": [],
+                                "Tooltip": "",
+                                "Type": 1,
+                                "Value": "4.00"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Top Rail:",
+                                "DisplayFormat": "Decimal",
+                                "DisplayPrecision": "2",
+                                "DisplayType": "NumericTextBox",
+                                "DisplayValue": null,
+                                "ID": "ca532e1b-2ee2-4702-9047-e78359343ec1",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "TopRail",
+                                "Ranges": [],
+                                "SelectableValues": [],
+                                "Tooltip": "",
+                                "Type": 1,
+                                "Value": "6.00"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Lock Rail:",
+                                "DisplayFormat": "Decimal",
+                                "DisplayPrecision": "2",
+                                "DisplayType": "NumericTextBox",
+                                "DisplayValue": null,
+                                "ID": "88a4e89b-5fb3-44b1-87c4-37dcc3c19c4b",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "LockRail",
+                                "Ranges": [],
+                                "SelectableValues": [],
+                                "Tooltip": "",
+                                "Type": 1,
+                                "Value": "8.00"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Lock Rail Location:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "DropDown",
+                                "DisplayValue": null,
+                                "ID": "d375f8be-cf7c-460a-b3de-1120ca5746b2",
+                                "InformationLink": null,
+                                "InformationMessage": "Measured from the Floor",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "LockRailList",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "36.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "36",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "37.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "37",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "38.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "38",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "39.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "39",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "40.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "40",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "41.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "41",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "42.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "42",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "43.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "43",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "44.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "44",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "45.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "45",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "46.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "46",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "47.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "47",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "48.00",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "48",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Special",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "SP",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "Tooltip": "Note",
+                                "Type": 0,
+                                "Value": "41"
+                            }
+                        ],
+                        "ShowCaption": false,
+                        "ShowDescription": true,
+                        "ShowSeparator": true
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Bottom Rail:",
+                                "DisplayFormat": "Decimal",
+                                "DisplayPrecision": "2",
+                                "DisplayType": "NumericTextBox",
+                                "DisplayValue": null,
+                                "ID": "10316580-b29a-46ba-8d89-d5195675d4d6",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "BottomRail",
+                                "Ranges": [],
+                                "SelectableValues": [],
+                                "Tooltip": "",
+                                "Type": 1,
+                                "Value": "8.25"
+                            }
+                        ],
+                        "ShowCaption": false,
+                        "ShowDescription": false,
+                        "ShowSeparator": false
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Top Panel:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayValue": null,
+                                "ID": "cee24a6a-d599-4e6a-922a-68c7b6942ed9",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "TopPanel",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Flat Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WDPanelType/",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "PanelFlat",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FXModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\PAN"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Raised Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WDPanelType/",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "PanelRaised",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FXModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\PAN"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Glass Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WDPanelType/",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "GlassClear",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FXModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\PAN"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 0,
+                                "Value": "PanelRaised"
+                            },
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Bottom Panel:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayValue": null,
+                                "ID": "889a0f1c-2879-4548-986f-5138c99b861d",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "BottomPanel",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Flat Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WDPanelType/",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "PanelFlat",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FXModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\PAN"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Raised Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WDPanelType/",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "PanelRaised",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FXModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\PAN"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Glass Panel",
+                                        "ImageLink": "https://swiftsell.app/ConfiguratorContent/IMAGES/WDPanelType/",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "GlassClear",
+                                        "CustomProperties": [
+                                            {
+                                                "__type": "CustomProperty:http://infor.com/pcm/v2",
+                                                "Name": "FXModel",
+                                                "Type": 0,
+                                                "Value": "WD2\\PAN"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 0,
+                                "Value": "PanelRaised"
+                            }
+                        ],
+                        "ShowCaption": false,
+                        "ShowDescription": false,
+                        "ShowSeparator": true
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 1,
+                                "Caption": "Dimensions:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayValue": null,
+                                "ID": "02ffb152-0cac-45f1-9617-d29fa01a5e94",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Dims",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Yes",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "True",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "No",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "False",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 2,
+                                "Value": "True"
+                            }
+                        ],
+                        "ShowCaption": false,
+                        "ShowDescription": false,
+                        "ShowSeparator": false
+                    },
+                    {
+                        "__type": "Screen:http://infor.com/pcm/v2",
+                        "ApplicationLink": null,
+                        "Caption": "",
+                        "Description": "",
+                        "ImageLink": null,
+                        "InformationLink": null,
+                        "IsVisible": true,
+                        "ScreenOptions": [
+                            {
+                                "__type": "ScreenOption:http://infor.com/pcm/v2",
+                                "ApplicationLink": null,
+                                "AutoContinueMode": 2,
+                                "Caption": "Hinges:",
+                                "DisplayFormat": null,
+                                "DisplayPrecision": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayValue": null,
+                                "ID": "40855bbd-d240-43c0-ada0-9075824a8d91",
+                                "InformationLink": null,
+                                "InformationMessage": "",
+                                "IsDisplayableInRapidEntry": true,
+                                "IsEnabled": true,
+                                "IsGlobalPinned": false,
+                                "IsHighlighted": false,
+                                "IsOverridden": false,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsRequired": true,
+                                "IsVisible": true,
+                                "Name": "Hinges",
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "Yes",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "True",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "__type": "ScreenOptionValue:http://infor.com/pcm/v2",
+                                        "Caption": "No",
+                                        "ImageLink": "",
+                                        "IsEnabled": true,
+                                        "IsVisible": true,
+                                        "Value": "False",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "Tooltip": "",
+                                "Type": 2,
+                                "Value": "False"
+                            }
+                        ],
+                        "ShowCaption": false,
+                        "ShowDescription": false,
+                        "ShowSeparator": false
+                    }
+                ]
+            }
+        ],
+        "SelectionSummary": [
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Main Options",
+                "IsHighlighted": false,
+                "Type": 0,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Door Options ",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Wood Species:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Hickory"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Stain Color:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Natural"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Construction",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Profile:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Traditional"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Style and Size",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Door Style:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Square Panel, Square Top"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Width:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "30.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Height:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "80.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Thickness:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "1.375"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Style:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Scoop Panel"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Exterior Treatment:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "No"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Dimensions",
+                "IsHighlighted": false,
+                "Type": 0,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Stile Width:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "4.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Top Rail:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "6.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Lock Rail:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "8.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Lock Rail Location:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "41.00"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Bottom Rail:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "8.25"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Top Panel:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Raised Panel"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Bottom Panel:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Raised Panel"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Dimensions:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "Yes"
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "",
+                "IsHighlighted": false,
+                "Type": 1,
+                "Value": null
+            },
+            {
+                "__type": "Detail:http://infor.com/pcm/v2",
+                "Caption": "Hinges:",
+                "IsHighlighted": false,
+                "Type": 2,
+                "Value": "No"
+            }
+        ]
+    }
+}
