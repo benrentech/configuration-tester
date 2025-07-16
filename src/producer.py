@@ -45,8 +45,7 @@ class GenerateVariants:
         conn.commit()
         print("Finished generating variants.")
 
-    @staticmethod
-    def get_attribute_options(data):
+    def get_attribute_options(self, data):
         attribute_options = {}
         for obj in data["d"]["Pages"]:
             for screen in obj["Screens"]:
@@ -62,11 +61,11 @@ class GenerateVariants:
                     case "TextBox":
                         options = ["test"]
                     case "NumericTextBox":
-                        options = [0]
+                        options = [12345]
                     # Most common case, handles everything with multiple options like checkboxes
                     case _:
                         selectable_values = screen_options["SelectableValues"]
-                        options = [val["Caption"] for val in selectable_values]
+                        options = [val["Value"] for val in selectable_values]
 
                 if len(options) == 0:
                     continue
