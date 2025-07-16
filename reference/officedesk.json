@@ -1,0 +1,1837 @@
+{
+    "d": {
+        "Pages": [
+            {
+                "Caption": "Desk",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Model",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "69635005-2c42-401c-a6f5-cc377dd79b61",
+                                "Name": "Cover",
+                                "Caption": "Model of the base cover",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "MDN",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "MDN",
+                                        "Caption": "Rectangular",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/OfficeDeskImageMDN.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "CutModifier",
+                                                "Type": 0,
+                                                "Value": "1"
+                                            },
+                                            {
+                                                "Name": "DepthType",
+                                                "Type": 0,
+                                                "Value": "Single"
+                                            },
+                                            {
+                                                "Name": "Info",
+                                                "Type": 0,
+                                                "Value": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "MDR",
+                                        "Caption": "Rounded Front",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/OfficeDeskImageMDR.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "CutModifier",
+                                                "Type": 0,
+                                                "Value": "1.3"
+                                            },
+                                            {
+                                                "Name": "DepthType",
+                                                "Type": 0,
+                                                "Value": "Single"
+                                            },
+                                            {
+                                                "Name": "Info",
+                                                "Type": 0,
+                                                "Value": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "MDA",
+                                        "Caption": "Angled Front",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/OfficeDeskImageMDA.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "CutModifier",
+                                                "Type": 0,
+                                                "Value": "1.2"
+                                            },
+                                            {
+                                                "Name": "DepthType",
+                                                "Type": 0,
+                                                "Value": "Dual"
+                                            },
+                                            {
+                                                "Name": "Info",
+                                                "Type": 0,
+                                                "Value": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "MDT",
+                                        "Caption": "Transitional",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/OfficeDeskImageMDT.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "CutModifier",
+                                                "Type": 0,
+                                                "Value": "1.2"
+                                            },
+                                            {
+                                                "Name": "DepthType",
+                                                "Type": 0,
+                                                "Value": "Dual"
+                                            },
+                                            {
+                                                "Name": "Info",
+                                                "Type": 0,
+                                                "Value": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "MDC",
+                                        "Caption": "Corner Fit",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/OfficeDeskImageMDC.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "CutModifier",
+                                                "Type": 0,
+                                                "Value": "1.6"
+                                            },
+                                            {
+                                                "Name": "DepthType",
+                                                "Type": 0,
+                                                "Value": "Single"
+                                            },
+                                            {
+                                                "Name": "Info",
+                                                "Type": 0,
+                                                "Value": ""
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "39b32809-7fed-4a3d-aa87-2ab70ee7e43e",
+                                "Name": "CoverFinishType",
+                                "Caption": "Type of finish",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "FME",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonHorizontal",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "FLA",
+                                        "Caption": "Laminate",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FME",
+                                        "Caption": "Melamines",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "9556986d-40f8-4fde-84db-efa3417b9414",
+                                "Name": "CoverFinishColor",
+                                "Caption": "Finish color options",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "FMELG",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "FMEAH",
+                                        "Caption": "Ash",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/Ash.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMELG",
+                                        "Caption": "Light Grey",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/LightGrey.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEOY",
+                                        "Caption": "Oyamel",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/Oyamel.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEUW",
+                                        "Caption": "Urban Walnut",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/UrbanWalnut.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEWN",
+                                        "Caption": "Walnut",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/Walnut.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEWF",
+                                        "Caption": "White Frost",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/WhiteFrost.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Measurements",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "b0743726-0817-400b-9af1-b32e4bf8c3f8",
+                                "Name": "Depth[\"1\"]",
+                                "Caption": "Depth of the desk in cm",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "M60",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 1,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "M60",
+                                        "Caption": "60cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "60"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M75",
+                                        "Caption": "75cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "75"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "dbef4f36-6bb1-430c-a40b-330a411920f5",
+                                "Name": "Width",
+                                "Caption": "Desired width of the desk in cm",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "M120",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 1,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "M75",
+                                        "Caption": "75cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "75"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M90",
+                                        "Caption": "90cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "90"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M120",
+                                        "Caption": "120cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "120"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M140",
+                                        "Caption": "140cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "140"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M150",
+                                        "Caption": "150cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "150"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M180",
+                                        "Caption": "180cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "180"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M200",
+                                        "Caption": "200cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "200"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M220",
+                                        "Caption": "220cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "220"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "87a57d1e-ff27-4b1d-8d08-7929318dab2a",
+                                "Name": "Height",
+                                "Caption": "Height of the desk in cm",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "M52",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "M52",
+                                        "Caption": "52.5cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "52.5"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M60",
+                                        "Caption": "60cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "60"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M75",
+                                        "Caption": "75cm",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Number",
+                                                "Type": 1,
+                                                "Value": "75"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": false,
+                        "ShowCaption": false,
+                        "Caption": "Options",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    }
+                ]
+            },
+            {
+                "Caption": "Support Options",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Support",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "c2347e1a-babb-4f57-bbda-309c88050910",
+                                "Name": "Supports[\"L\"]",
+                                "Caption": "Options to support the side of the desk",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "FR",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 1,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "CB",
+                                        "Caption": "Cabinet",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FR",
+                                        "Caption": "Frame Legs",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "MT",
+                                        "Caption": "Mount",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "PA",
+                                        "Caption": "Panel Legs",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "PO",
+                                        "Caption": "Porch Legs",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "SK",
+                                        "Caption": "Wrapped Panelling",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "79e6bf36-13a4-49f0-bbdf-ed5f6b47f82f",
+                                "Name": "PossibleFinish[\"L\"]",
+                                "Caption": "Finish for the Frame Legs",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "FME",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 1,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "COV",
+                                        "Caption": "Match Cover",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FLA",
+                                        "Caption": "Laminate",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FME",
+                                        "Caption": "Melamines",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMT",
+                                        "Caption": "Metals",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "e82e4f0f-3cd4-4471-bac7-a283d67cb29b",
+                                "Name": "Supports[\"LFinishColor\"]",
+                                "Caption": "Coloring for the finish",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "FMEUW",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 1,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "FMEAH",
+                                        "Caption": "Ash",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/Ash.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMELG",
+                                        "Caption": "Light Grey",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/LightGrey.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEOY",
+                                        "Caption": "Oyamel",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/Oyamel.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEUW",
+                                        "Caption": "Urban Walnut",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/UrbanWalnut.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEWN",
+                                        "Caption": "Walnut",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/Walnut.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "FMEWF",
+                                        "Caption": "White Frost",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/OfficeDesk/WhiteFrost.jpg",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Electrification",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "acd6c399-12c5-4c2f-b019-0589bcb6ff4c",
+                                "Name": "Electrification",
+                                "Caption": "Electrical Cabling Options",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "RG",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "NA",
+                                        "Caption": "No Electrification",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "LG",
+                                        "Caption": "Left Grommet",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "24"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "RG",
+                                        "Caption": "Right Grommet",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "24"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "CG",
+                                        "Caption": "Central Grommet",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "24"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "DG",
+                                        "Caption": "Double Grommet",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "48"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "LL",
+                                        "Caption": "Left Hinged Lid",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "78"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "RL",
+                                        "Caption": "Right Hinged Lid",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "78"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "FL",
+                                        "Caption": "Hinged Front Cover",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "78"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": false,
+                        "ShowCaption": false,
+                        "Caption": "Accessories",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    }
+                ]
+            },
+            {
+                "Caption": "Accessories",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Side Cabinet",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "4a44c89f-e51f-400b-9cc5-a74cb5e6a676",
+                                "Name": "ExtraCabinet[\"YesNo\"]",
+                                "Caption": "Add a side cabinet?",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "N",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "Y",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "N",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Extras",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "2a9677e2-3a98-4e8f-aa88-020253b2127c",
+                                "Name": "Divider",
+                                "Caption": "Divider",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "AFD",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonHorizontal",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "ANA",
+                                        "Caption": "None",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "AFD",
+                                        "Caption": "Flat Divider",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "ATD",
+                                        "Caption": "Technical Divider w/ Attachable Trays",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "66cff86b-d067-4bc1-bcdc-be3a64a1776c",
+                                "Name": "CableHolder",
+                                "Caption": "Cable Channel Cover",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "True",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            },
+                            {
+                                "ID": "f5cc1520-ffcb-4214-bd2e-9af6d674b2e1",
+                                "Name": "CableTotem",
+                                "Caption": "Cable Channel Extending Totem",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "False",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "CheckBox",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Messages": [],
+        "ActionableMessage": null,
+        "Details": [
+            {
+                "Caption": "Model: Rectangular",
+                "Value": "721.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Left Support:Frame Legs",
+                "Value": "59.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Electrification:Right Grommet",
+                "Value": "24.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Divider Option:Flat Divider",
+                "Value": "55.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Cable Holder",
+                "Value": "21.00",
+                "IsHighlighted": false,
+                "Type": 5
+            }
+        ],
+        "SelectionSummary": [
+            {
+                "Caption": "Desk",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 0
+            },
+            {
+                "Caption": "Model",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Model of the base cover",
+                "Value": "Rectangular",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Type of finish",
+                "Value": "Melamines",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Finish color options",
+                "Value": "Light Grey",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "Measurements",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Depth of the desk in cm",
+                "Value": "60cm",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Desired width of the desk in cm",
+                "Value": "120cm",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Height of the desk in cm",
+                "Value": "52.5cm",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "Options",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Support Options",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 0
+            },
+            {
+                "Caption": "Support",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Options to support the side of the desk",
+                "Value": "Frame Legs",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Finish for the Frame Legs",
+                "Value": "Melamines",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Coloring for the finish",
+                "Value": "Urban Walnut",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "Electrification",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Electrical Cabling Options",
+                "Value": "Right Grommet",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "Accessories",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Accessories",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 0
+            },
+            {
+                "Caption": "Side Cabinet",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Add a side cabinet?",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "Extras",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Divider",
+                "Value": "Flat Divider",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Cable Channel Cover",
+                "Value": "Yes",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "Cable Channel Extending Totem",
+                "Value": "No",
+                "IsHighlighted": false,
+                "Type": 2
+            }
+        ],
+        "ImageUrl": "",
+        "IsExecutionComplete": true,
+        "OptionToFocus": "f5cc1520-ffcb-4214-bd2e-9af6d674b2e1",
+        "ConfiguredPrice": 880,
+        "CurrencyCode": null,
+        "ExchangeRate": 0,
+        "CultureName": "en-US",
+        "IsPartialSaveEnabled": true,
+        "SessionID": "RENAISSANCETECH_DEM~RENAISSANCETECH_DEM~620bc4af-f014-4676-9747-316ce92dc5ca",
+        "DefaultInformationPane": "Image",
+        "ExternalApplications": [],
+        "DataGrids": [],
+        "TextFormattingEnabled": true
+    }
+}

@@ -1,0 +1,691 @@
+{
+    "d": {
+        "Pages": [
+            {
+                "Caption": "Table Configuration",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": true,
+                        "Caption": "Main Selections",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": true,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "19406899-4f16-4609-a761-418f2a2ecfe8",
+                                "Name": "TableSize",
+                                "Caption": "Table Size",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "M",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonHorizontal",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "S",
+                                        "Caption": "Small (120\" x 48\")",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "120\" x 48\""
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "1750"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "M",
+                                        "Caption": "Medium (120\" x 60\")",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "120\" x 60\""
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "2350"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "L",
+                                        "Caption": "Large (168\" x 60\")",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "168\" x 60\""
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "4250"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "C",
+                                        "Caption": "Custom",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": ""
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "2500"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": true,
+                        "Description": "Materials",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "23104ed6-832e-416a-9dd0-c7b29a585ba8",
+                                "Name": "TableTopColor",
+                                "Caption": "Top Color",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "BM",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "ImageAndTextWrap",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "NW",
+                                        "Caption": "Natural Walnut",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/NW.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "82b29667-31fa-4a0d-9a56-84c70d3f3b55"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "350"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "DR",
+                                        "Caption": "Dune Rift Cut Oak",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/DR.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "a6f6294c-8d5b-41d9-8a2b-498507a1eeef"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "200"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "BM",
+                                        "Caption": "Bright Marble",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/BM.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "8759f2e7-5c47-4dfb-b8b7-cc0c4bd089f0"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "500"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "NM",
+                                        "Caption": "Natural Maple",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/NM.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "a38a7e8d-f350-4b91-a84d-c3d6b7c5c01f"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "550"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "OW",
+                                        "Caption": "Otter Walnut",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/OW.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "4d1a8db3-f35c-4c05-a3c1-f3cdd7b847b8"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "400"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "SS",
+                                        "Caption": "Stone Serene",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/SS.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "47672fda-d1a3-4f47-a809-dee62d57e36c"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "750"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "SB",
+                                        "Caption": "Satin Black Glass",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/SB.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "98fda316-5278-4cea-9ff6-728aad0d0a8b"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "PA",
+                                        "Caption": "Palado",
+                                        "ImageLink": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/PA.png",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "7d407d2c-b7ed-4fe0-b111-7b2ce02576ab"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "600"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "c96e24eb-48e6-46fc-bf42-2b9f46ca67f7",
+                                "Name": "LegColor",
+                                "Caption": "Leg Material",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "BA",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonVertical",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "SA",
+                                        "Caption": "Stainless Aluminum",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "0604fb7c-094e-454f-8472-df41172335d0"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "400"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "BA",
+                                        "Caption": "Bronze Acrylic",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Asset",
+                                                "Type": 0,
+                                                "Value": "ba81e8a8-84c1-4d6d-a686-53caa8ee3741"
+                                            },
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "300"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "35d7d662-c07c-4558-8111-7c039341bb7e",
+                                "Name": "BasePanelColor",
+                                "Caption": "Base Panel Color",
+                                "Type": 0,
+                                "MaxColumnSpan": 1,
+                                "Value": "Satin Bronze",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 2,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "RadioButtonHorizontal",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "Chrome",
+                                        "Caption": "Chrome",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "150"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "Shadow",
+                                        "Caption": "Shadow",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "250"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Value": "Satin Bronze",
+                                        "Caption": "Satin Bronze",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": [
+                                            {
+                                                "Name": "Price",
+                                                "Type": 1,
+                                                "Value": "350"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    },
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": []
+                    }
+                ]
+            }
+        ],
+        "Messages": [],
+        "ActionableMessage": null,
+        "Details": [
+            {
+                "Caption": "Pricing Summary",
+                "Value": "",
+                "IsHighlighted": false,
+                "Type": 4
+            },
+            {
+                "Caption": "Table Base Price for Medium (120\" x 60\")",
+                "Value": "2350.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Table Top: Bright Marble",
+                "Value": "500.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Leg Material: Bronze Acrylic",
+                "Value": "300.00",
+                "IsHighlighted": false,
+                "Type": 5
+            },
+            {
+                "Caption": "Base Panel: Satin Bronze",
+                "Value": "350.00",
+                "IsHighlighted": false,
+                "Type": 5
+            }
+        ],
+        "SelectionSummary": [
+            {
+                "Caption": "Table Configuration",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 0
+            },
+            {
+                "Caption": "Main Selections",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Table Size",
+                "Value": "Medium (120\" x 60\")",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "Materials",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Top Color",
+                "Value": "Bright Marble",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Leg Material",
+                "Value": "Bronze Acrylic",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Base Panel Color",
+                "Value": "Satin Bronze",
+                "IsHighlighted": false,
+                "Type": 2
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            }
+        ],
+        "ImageUrl": "https://configurator.inforcloudsuite.com/Content/company1-Default/Files/Images/TBL/Table.jpg",
+        "IsExecutionComplete": true,
+        "OptionToFocus": "35d7d662-c07c-4558-8111-7c039341bb7e",
+        "ConfiguredPrice": 3500,
+        "CurrencyCode": null,
+        "ExchangeRate": 0,
+        "CultureName": "en-US",
+        "IsPartialSaveEnabled": true,
+        "SessionID": "RENAISSANCETECH_DEM~RENAISSANCETECH_DEM~a28e32d9-abcf-49af-85ad-72868ec594a0",
+        "DefaultInformationPane": "Image",
+        "ExternalApplications": [
+            {
+                "Name": "",
+                "Url": "https://configurator.inforcloudsuite.com/visualization/threekit/v1",
+                "TabCaption": "3D Image",
+                "WaitForMessage": true,
+                "Messages": [
+                    {
+                        "Data": "{\"command\":\"SetConfiguration\",\"data\":{\"assetId\":\"4676b96f-c795-46ee-a627-b285a93660d2\",\"authToken\":\"91357f45-87e7-4c18-8dab-164af60c49e5\",\"Base Panel Material\":\"Satin Bronze\",\"Leg Material\":{\"assetId\":\"ba81e8a8-84c1-4d6d-a686-53caa8ee3741\"},\"Table Size\":\"120\\\" x 60\\\"\",\"Table Top\":{\"assetId\":\"8759f2e7-5c47-4dfb-b8b7-cc0c4bd089f0\"}}}",
+                        "MessageSourceVariableFullPath": "Demo·OfficeTable.AVData"
+                    }
+                ]
+            }
+        ],
+        "DataGrids": [],
+        "TextFormattingEnabled": true
+    }
+}

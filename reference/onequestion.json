@@ -1,0 +1,121 @@
+{
+    "d": {
+        "Pages": [
+            {
+                "Caption": "Page 1",
+                "IsVisible": true,
+                "Screens": [
+                    {
+                        "IsVisible": true,
+                        "ShowCaption": false,
+                        "Caption": "",
+                        "ShowDescription": false,
+                        "Description": "",
+                        "ShowSeparator": false,
+                        "ApplicationLink": null,
+                        "InformationLink": null,
+                        "ImageLink": null,
+                        "ScreenOptions": [
+                            {
+                                "ID": "7a1b730a-7232-4dcc-a7ce-57cdea51c942",
+                                "Name": "YesNo",
+                                "Caption": "Yes or no",
+                                "Type": 2,
+                                "MaxColumnSpan": 1,
+                                "Value": "True",
+                                "DisplayValue": null,
+                                "IsRequired": true,
+                                "IsEnabled": true,
+                                "IsVisible": true,
+                                "AutoContinueMode": 1,
+                                "IsHighlighted": false,
+                                "Tooltip": "",
+                                "InformationMessage": "",
+                                "ApplicationLink": null,
+                                "InformationLink": null,
+                                "ExternalApplicationTargetName": null,
+                                "ExternalApplicationButtonType": "None",
+                                "ExternalApplicationButtonCaption": null,
+                                "DisplayType": "DropDown",
+                                "DisplayPrecision": null,
+                                "DisplayFormat": null,
+                                "IsPinnable": false,
+                                "IsPinnableAcross": false,
+                                "IsPinned": false,
+                                "IsGlobalPinned": false,
+                                "IsOverridden": false,
+                                "IsDisplayableInRapidEntry": true,
+                                "Ranges": [],
+                                "SelectableValues": [
+                                    {
+                                        "Value": "True",
+                                        "Caption": "Yes",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    },
+                                    {
+                                        "Value": "False",
+                                        "Caption": "No",
+                                        "ImageLink": "Files/Images",
+                                        "IsVisible": true,
+                                        "IsEnabled": true,
+                                        "Tooltip": "",
+                                        "CustomProperties": []
+                                    }
+                                ],
+                                "ContentValue": {
+                                    "Id": null,
+                                    "FileName": null,
+                                    "FileSize": 0,
+                                    "FilePath": null,
+                                    "FileType": null,
+                                    "Base64": null
+                                },
+                                "Columns": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Messages": [],
+        "ActionableMessage": null,
+        "Details": [],
+        "SelectionSummary": [
+            {
+                "Caption": "Page 1",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 0
+            },
+            {
+                "Caption": "",
+                "Value": null,
+                "IsHighlighted": false,
+                "Type": 1
+            },
+            {
+                "Caption": "Yes or no",
+                "Value": "Yes",
+                "IsHighlighted": false,
+                "Type": 2
+            }
+        ],
+        "ImageUrl": "",
+        "IsExecutionComplete": true,
+        "OptionToFocus": "7a1b730a-7232-4dcc-a7ce-57cdea51c942",
+        "ConfiguredPrice": 0,
+        "CurrencyCode": null,
+        "ExchangeRate": 0,
+        "CultureName": "en-US",
+        "IsPartialSaveEnabled": true,
+        "SessionID": "RENAISSANCETECH_DEM~RENAISSANCETECH_DEM~45eb9622-3d95-49ec-bacd-b2ec05999073",
+        "DefaultInformationPane": "Image",
+        "ExternalApplications": [],
+        "DataGrids": [],
+        "TextFormattingEnabled": true
+    }
+}
