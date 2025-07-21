@@ -1,7 +1,9 @@
 import asyncio
 import aiosqlite
 import httpx
+import orjson
 from runner import Runner
+from pprint import pprint
 
 
 class Sender:
@@ -71,12 +73,13 @@ class Sender:
             v_id, data = variant
 
             if isinstance(runner, Runner):
-                results = runner.send_to_config(data)
-                if results["result"] != "Success":
-                    print(
-                        f"Worker {worker_id} failed to send variant {v_id}: status: {results['result']}, messsage: {results['message']} "
-                    )
-                # await write_queue.put(results)
+                results = await runner.send_to_config(orjson.loads(data))
+                pprint(results)
+                # if results["result"] != "Success":
+                #     print(
+                #         f"Worker {worker_id} failed to send variant {v_id}: status: {results['result']}, messsage: {results['message']} "
+                #     )
+                # # await write_queue.put(results)
 
             # else:
             #     try:
@@ -94,7 +97,7 @@ class Sender:
             #             f"Timeout error: Worker {worker_id} failed to send variant {v_id}"
             #         )
 
-    async def init_db(self):
+    async def _init_db(self):
         self.conn = await aiosqlite.connect(self.db_path)
         await self.conn.execute("PRAGMA journal_mode=WAL;")
         await self.conn.execute("PRAGMA temp_store=memory;")
@@ -103,7 +106,7 @@ class Sender:
     async def _start_common(self, num_workers, runner):
         read_queue = asyncio.Queue(maxsize=num_workers * 10)
         write_queue = asyncio.Queue()
-        self.init_db()
+        await self._init_db()
 
         reader = asyncio.create_task(self._db_reader(read_queue))
         writer = asyncio.create_task(self._db_writer(write_queue))
