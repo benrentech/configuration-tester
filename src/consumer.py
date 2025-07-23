@@ -1,15 +1,12 @@
 import asyncio
 import aiosqlite
-import httpx
-import orjson
 from runner import Runner
-from pprint import pprint
 
 
 class Sender:
-    def __init__(self, db_path, endpoint_url):
+    def __init__(self, db_path, endpoint):
         self.db_path = db_path
-        self.endpoint_url = endpoint_url
+        self.endpoint = endpoint
         self.conn = None
 
     async def _db_reader(self, read_queue):
@@ -70,32 +67,9 @@ class Sender:
                 await read_queue.put(None)
                 break
 
-            v_id, data = variant
+            v_id, options = variant
 
-            if isinstance(runner, Runner):
-                results = await runner.send_to_config(orjson.loads(data))
-                pprint(results)
-                # if results["result"] != "Success":
-                #     print(
-                #         f"Worker {worker_id} failed to send variant {v_id}: status: {results['result']}, messsage: {results['message']} "
-                #     )
-                # # await write_queue.put(results)
-
-            # else:
-            #     try:
-            #         resp = await runner.post(self.endpoint_url, data=data)
-            #         if resp.status_code == 200:
-            #             # Sending to response to self.conn, currently placeholder
-            #             await write_queue.put((v_id, resp.text))
-            #             print(f"Worker {worker_id} successfully sent variant {v_id}.")
-            #         else:
-            #             print(
-            #                 f"Worker {worker_id} failed to send variant {v_id}: status {resp.status_code}"
-            #             )
-            #     except httpx.ReadTimeout:
-            #         print(
-            #             f"Timeout error: Worker {worker_id} failed to send variant {v_id}"
-            #         )
+            await runner.send(options)
 
     async def _init_db(self):
         self.conn = await aiosqlite.connect(self.db_path)
@@ -123,15 +97,11 @@ class Sender:
         await self.conn.close()
         print("All variants have finished processing.")
 
-    async def start_onprem(self, num_workers, runner):
-        await self._start_common(num_workers, runner)
-
-    async def start_web(self, num_workers):
-        async with httpx.AsyncClient(http2=True, timeout=1.0) as client:
-            await self._start_common(num_workers, client)
+    async def start(self, num_workers, runner):
+        async with runner.client:
+            await self._start_common(num_workers, runner)
 
     def run(self, num_workers=10, runner=None):
         if runner is None:
-            asyncio.run(self.start_web(num_workers))
-        else:
-            asyncio.run(self.start_onprem(num_workers, runner))
+            runner = Runner(self.endpoint)
+        asyncio.run(self.start(num_workers, runner))

@@ -50,7 +50,10 @@ def gen_single_file(num=1000, file="hotcabinet.json"):
 
 
 def send_variants(runner=None):
-    sender = Sender("variants.db", "https://httpbin.org/post")
+    sender = Sender(
+        "variants.db",
+        "http://localhost:5047/api/HostServices/RunBackgroundConfiguration",
+    )
     sender.run(num_workers=50, runner=runner)
 
 
@@ -102,11 +105,7 @@ def get_latest_entry_as_csharp_list(db_path):
 def main():
     create_tables("variants.db")
     gen_single_file(num=1, file="officetable.json")
-
-    print(get_latest_entry_as_csharp_list("variants.db"))
-
-    # runner = Runner(namespace="Demo", profile="config_tester", part_number="Door")
-    # send_variants(runner)
+    send_variants()
 
 
 if __name__ == "__main__":
