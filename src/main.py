@@ -1,10 +1,12 @@
 import orjson
 from producer import GenerateVariants, MultiGenerator
-from consumer import Sender
 import sqlite3
 from pprint import pprint
 
 
+# TODO: convert to javascript
+# TODO: create writeup
+# TODO: test model variants
 # Meant for local testing
 def create_tables(db_path):
     conn = sqlite3.connect(db_path)
@@ -29,10 +31,10 @@ def create_tables(db_path):
     conn.close()
 
 
-def print_rows():
+def print_rows(num=2):
     conn = sqlite3.connect("variants.db")
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM queue LIMIT 2")
+    cursor.execute("SELECT * FROM queue LIMIT ?", (num,))
     for row in cursor.fetchall():
         pprint(orjson.loads(row[1]))
     conn.close()
@@ -42,19 +44,6 @@ def gen_multi_file():
     files = MultiGenerator.get_file_paths("reference/")
     producer = MultiGenerator(files, "variants.db")
     producer.generate()
-
-
-def gen_single_file(num=1000, file="hotcabinet.json"):
-    producer = GenerateVariants(f"reference/{file}", "variants.db", seed=42)
-    producer.generate(num)
-
-
-def send_variants(runner=None):
-    sender = Sender(
-        "variants.db",
-        "http://localhost:5047/api/HostServices/RunBackgroundConfiguration",
-    )
-    sender.run(num_workers=50, runner=runner)
 
 
 def get_latest_entry_as_csharp_list(db_path):
@@ -103,9 +92,14 @@ def get_latest_entry_as_csharp_list(db_path):
 
 
 def main():
-    create_tables("variants.db")
-    gen_single_file(num=1, file="officetable.json")
-    send_variants()
+    db_path = "variants.db"
+    create_tables(db_path)
+
+    file = "door.json"
+    producer = GenerateVariants(f"reference/{file}", db_path, seed=42)
+    producer.generate(5)
+
+    get_latest_entry_as_csharp_list(db_path)
 
 
 if __name__ == "__main__":
