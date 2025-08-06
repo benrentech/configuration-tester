@@ -3,11 +3,10 @@ from producer import GenerateVariants, MultiGenerator
 import sqlite3
 from pprint import pprint
 
+# Everything in main is meant for local testing and isn't necessary to the program
+# create_tables is the exception as the database must have the fields mentioned in it.
 
-# TODO: convert to javascript
-# TODO: create writeup
-# TODO: test model variants
-# Meant for local testing
+
 def create_tables(db_path):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
@@ -31,6 +30,7 @@ def create_tables(db_path):
     conn.close()
 
 
+# Prints out the last 2 variants from variants.db
 def print_rows(num=2):
     conn = sqlite3.connect("variants.db")
     cursor = conn.cursor()
@@ -40,12 +40,15 @@ def print_rows(num=2):
     conn.close()
 
 
+# Runs the producer on all files in reference and saves them to variants.db
 def gen_multi_file():
     files = MultiGenerator.get_file_paths("reference/")
     producer = MultiGenerator(files, "variants.db")
     producer.generate()
 
 
+# Converts latest variant to C# code, eg repeated rapidoptions.add(field),
+# so that the variant can easily be tested with the C# Infor library
 def get_latest_entry_as_csharp_list(db_path):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
@@ -95,11 +98,11 @@ def main():
     db_path = "variants.db"
     create_tables(db_path)
 
-    file = "door.json"
-    producer = GenerateVariants(f"reference/{file}", db_path, seed=42)
+    file = "officedesk.json"
+    producer = GenerateVariants(f"reference/{file}", db_path, seed=41)
     producer.generate(5)
 
-    get_latest_entry_as_csharp_list(db_path)
+    print(get_latest_entry_as_csharp_list(db_path))
 
 
 if __name__ == "__main__":
